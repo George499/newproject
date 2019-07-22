@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./fonts/GothamPro-LightItalic.woff2') format('woff2'),
+        url('/fonts/GothamPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('/fonts/GothamPro-Bold.woff2') format('woff2'),
+        url('/fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('/fonts/GothamPro-Light.woff2') format('woff2'),
+        url('/fonts/GothamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+font: 16px/1.42 "Gotham Pro", Arial, Helvetica, sans-serif;
+margin: 0;
+-webkit-font-smoothing: antialiased;
+}
+wrapper {
+height: autoж
+height: 100%;
+}
+.header {
+background: #27273e;
+}
+.header__container {
+height: 76px;
+position: relative;
+width: 1100px;
+margin: 0 auto;
+}
+.container {
+width: 1100px;
+margin: 0 auto;
+position: relative;
+}
+.coworking {
+position: absolute;
+}
+
+.logo {
+  position: absolute;
+  top: 21px;
+  left: 19px;
+}
+.logo_bottom {
+  position: absolute;
+  top: 14px;
+  right: 502px;
+  bottom: 12px;
+  left: 499px;
+}
+.contacts {
+position: absolute;
+top: 21px;
+right: 0;
+text-align: right;
+font-style: normal;
+}
+.contacts__phone {
+text-decoration: none;
+font-weight: bold;
+color: #ffffff;
+font-size: 21px;
+}
+.working__time {
+color: #ec1e79;
+font-size: 14px;
+}
+.coworking_ph_pic {
+  display: block;
+  max-width: 100%;
+}
+.maincontent {
+  display: inline-block;
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+.sidebar {
+display: inline-block;
+top: 0;
+left: 0px;
+height: 114px;
+width: 160px;
+}
+.features {
+display: inline-block;
+top: 501px;
+left: 194px;
+height: 723px;
+width: 880px;
+}
+.News {
+top: 981px;
+left: 194px;
+height: 723px;
+width: 880px;
+}
+.feature_item {
+display: inline-block;
+vertical-align: middle;
+width: 31%;
+height: 311px;
+}
+.features_title {
+text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 0;
+}
+.news__item {
+  left: 0;
+}
+.news_avatar_hole {
+position: absolute;
+top: 115px;
+right: 720px;
+bottom: 448px;
+height: 160px;
+width: 160px;
+background-color: #cfd8dc;
+border-radius: 160px;
+}
+.news_avatar_fire {
+position: absolute;
+top: 337px;
+right: 720px;
+bottom: 226px;
+height: 160px;
+width: 160px;
+background-color: #cfd8dc;
+border-radius: 160px;
+}
+.news_avatar_cowork {
+position: absolute;
+top: 558px;
+right: 720px;
+bottom: 5px;
+height: 160px;
+width: 160px;
+background-color: #cfd8dc;
+border-radius: 160px;
+}
+.News {
+  position: relative;
+}
+
+.social_icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+.social_icons--red {
+  background: #ec1e79;
+}
+.social_contacts {
+position: absolute;
+top: 20px;
+right: 22px;
+left: 910px;
+font-size: 14px;
+font-weight: bold;
+color: #ffffff;
+text-align: left;
+line-height: 54px;
+}
+
+.menu__item {
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+.menu__text {
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #ec1e79;
+text-decoration: none;
+}
+.menu__text:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  background: no-repeat center center;
+  margin-right: 20px;
+}
+.menu__text--icon--triangle:before {
+  background-image: url(/images/main_icon.png)
+}
+.menu__text--icon--star:before {
+  background-image: url(/images/feed_icon.png)
+}
+.menu__text--icon--purse:before {
+  background-image: url(/images/wallet_icon.png)
+}
+.menu__text:hover {
+  color: #000000;
+}
+.menu__text--icon--star:hover:before {
+  background-image: url(/images/feed-hover.png)
+}
+.menu__text--icon--purse:hover:before {
+  background-image: url(/images/wallet_icon-hover.png)
+}
+.menu__text--active{
+  color: #000000;
+}
+.pagination__pages-item {
+display: inline-block;
+}
+.footer {
+background: #27273e;
+}
+.footer__container {
+height: 76px;
+width: 1100px;
+bottom: 0;
+position: relative;
+margin: 0 auto;
+left: 0;
+
+}
