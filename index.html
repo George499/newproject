@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      <meta charset="UTF-8">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="index.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
@@ -27,7 +27,8 @@
                     <img src="images/banner-3x.png" alt="Коворкинг твоей мечты" class="coworking_ph_pic">
                 </div>
         </div>
-         <div class="maincontent">
+         <main class="maincontent">
+          <div class="menu">
             <div class="sidebar">
                 <aside class="sidebar">
                   <nav class="menu">
@@ -44,13 +45,17 @@
                     </ul>
                   </nav>
                   </aside>
-            </div>
-                <div class="coworking">                                    
-                  <div class="features">
-                             <h2 class="section_title">Особенности</h2>
-                             <div class="features_list_container">
-                                 <div class="feature_item">
-                                     <img src="/images/flower.png" alt="flower">
+            </div> 
+          </div>
+          <div class="features_news">
+            <div class="features">
+            <h2 class="section-title">Особенности</h2>    
+            <ul class="features">                                                
+              <li class="features_list_item">
+                                 <div class="feature_photo">
+                                     <img src="images/flower.png" alt="flower">
+                                </div>
+                                <div class="feature_text">
                                      <h3 class="features_title">Уникальность</h3>
                                      <p>Создан для вашего комфортного отдыха</p>
                                      <ul>
@@ -58,9 +63,13 @@
                                          <li><span>Шкаф (5 кг)</span></li>
                                          <li><span>Рабочее место</span></li>                                         
                                      </ul>
-                                 </div>
-                                 <div class="feature_item">
-                                     <img src="/images/mark-as-favorite-star.png" alt="star">
+                                </div>
+              </li>
+              <li class="features_list_item">
+                                 <div class="feature_photo">
+                                     <img src="images/mark-as-favorite-star.png" alt="star">
+                                </div>
+                                <div class="feature_text">
                                      <h3 class="features_title">Премиум-класс</h3>
                                      <p>Для любителей хороших впечатлений</p>
                                      <ul>
@@ -68,40 +77,51 @@
                                          <li><span>Шкаф (10 кг)</span></li>
                                          <li><span>Детское кресло</span></li>                                         
                                      </ul>
-                                 </div>
-                                 <div class="feature_item">
-                                     <img src="/images/painter-palette.png" alt="painter-pallete">
-                                     <h3 class="features_title">лакшери-стулья</h3>                                        </h3>
+                                </div>
+              </li>
+              <li class="features_list_item">
+                                 <div class="feature_photo">
+                                     <img src="images/painter-palette.png" alt="palette">
+                                </div>
+                                <div class="feature_text">
+                                     <h3 class="features_title">лакшери-стулья</h3>
                                      <p>Всё самое лучшее и незабываемое</p>
                                      <ul>
                                          <li><span>Джакузи</span></li>
                                          <li><span>Шкаф (15 кг)</span></li>
                                          <li><span>Табуретка</span></li>                                         
                                      </ul>
-                                 </div>                                 
-                             </div>                             
-                      </div>
-                    
-                              
-                <div class="News">
-                        <h2 class="section-title">Последние новости</h2>
-                        <ul class="news__list">
-                          <li class="news__item">
-                            <img src="/images/hole.png" alt="туманность" class="news_avatar_hole">
-                            <div class="news__description">
-                              <div class="news__date">12.10.2016</div>
-                              <h3 class="news__title">Чёрная дыра скидок!</h3>
+                                </div>
+              </li>                               
+                                 
+            </ul>
+            </div>
+          <div class="Last_News">
+            <h2 class="section-title">Последние новости</h2>                     
+            <ul class="news__list">
+              <li class="news__item_photo">
+                                          
+                <div class="feature_photo">
+                  <img src="images/hole.png" alt="туманность" class="news_avatar_hole"> 
+                </div>                 
+             </li>                        
+                <li class="news__item">
+                                          
+                  <div class="news__date">12.10.2016</div>
+                  <h3 class="news__title">Чёрная дыра скидок!</h3>
                                 
-                            <p>Ключевым технологическим партнером GrowUp 
-                            является дата-центр Миран, 
-                            расположенный всего лишь в 500 метрах от здания, 
-                            а значит, скорость интернета будет стабильной в любое время суток. 
-                            Коворкинг работает в формате 24/7.
-                            </p>
-                            </div>
-                          </li>
-                          <li class="news__item">
-                            <img src="/images/fire.png" alt="шашка" class="news_avatar_fire">
+                  <p>Ключевым технологическим партнером GrowUp 
+                  является дата-центр Миран, 
+                  расположенный всего лишь в 500 метрах от здания, 
+                  а значит, скорость интернета будет стабильной в любое время суток. 
+                  Коворкинг работает в формате 24/7.
+                 </p>                                    
+               </li>                        
+              <li class="news__item_photo">
+                            <img src="images/fire.png" alt="шашка" class="news_avatar_fire">
+                           
+              </li>
+              <li class="news__item">
                             <div class="news__description">
                               <div class="news__date">01.02.2016</div>
                               <h3 class="news__title">Заражай друзей, получай призы!</h3>
@@ -111,9 +131,11 @@
                                 Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов.
                               </p>
                             </div>
-                          </li>
-                          <li class="news__item">
-                            <img src="/images/cowork.png" alt="коворкинг" class="news_avatar_cowork">
+              </li>
+              <li class="news__item_photo">
+                            <img src="images/cowork.png" alt="коворкинг" class="news_avatar_cowork">                            
+              </li>
+              <li class="news__item">
                             <div class="news__description">
                               <div class="news__date">22.12.2015</div>
                               <h3 class="news__title">Новое рабочее место для бизнесменов.</h3>
@@ -123,13 +145,11 @@
                                     Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: 
                                     микроволновкой, чайником, кофе машиной, посудой.
                               </p>
-                            </div>
-                          </li>
-           
-                        
-                </div>
-            </div>
-                <div class="pagination">
+                            </div>                            
+              </li>    
+            </ul>  
+          </div>             
+            <div class="pagination">
                         <div class="pagination__display">
                         Страница 1 из 7
                         </div>
@@ -160,35 +180,39 @@
                           </ul>
                           <a href="" class="pagination__next"></a>
                         </div>
-                </div>                    
-        </div>
-  </div>
-  <footer class="footer">
+              </div> 
+          </div>                   
+        </main>
+    </div>
+    <footer class="footer">
         <div class="container footer__container">
           <div class="footer_text">Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.
           Автор работы: Исаев Георгий
           </div>
-              <a href="/" class="logo_bottom">
+              <div class="logo"><a href="/" class="logo_bottom">
                <img src="images/logo-fig-3x.png" class="logo__img" alt="Коворкинг твоей мечты">
               </a>
-              <div class="social_contacts">Наши социальные сети</div>
+            </div>
+              <div class="social_contacts">
+                <div class="our_social_text" Наши социальные сети></div>
               <ul>
                    <li class="social_icons">
-                       <a href="#" class="social_icon social_icon--red"><img src="/images/vk-3x.png"></a>
+                       <a href="#" class="social_icon social_icon--red"><img src="images/vk.png"></a>
                    <li class="social_icons">
-                       <a href="#" class="social_icon"><img src="/images/fb-3x.png"></a>
+                       <a href="#" class="social_icon"><img src="images/fb.png"></a>
                    </li>
                    <li class="social_icons">
-                       <a href="#" class="social_icon"><img src="/images/google-3x.png"></a>
+                       <a href="#" class="social_icon"><img src="images/google.png"></a>
                    </li>
                    <li class="social_icons">
-                       <a href="#" class="social_icon"><img src="/images/twitter-3x.png"></a>
+                       <a href="#" class="social_icon"><img src="images/twitter.png"></a>
                    </li>
                    <li class="social_icons">
-                       <a href="#" class="social_icon"><img src="/images/mail-3x.png"></a>
+                       <a href="#" class="social_icon"><img src="images/mail.png"></a>
                    </li>
                </ul>
               </div>
-  </footer>       
+              </div>
+    </footer>       
 </body>
 </html>
