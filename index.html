@@ -12,7 +12,7 @@
 
         <header class="header">
             <div class="container header__container">
-            <a href="/" class="logo">            
+            <a href="/" class="logo_header">            
                 <img src="images/logo-fig-3x.png" class="logo__img" alt="Коворкинг твоей мечты">
                 </a>
                  <adress class="contacts">
@@ -50,10 +50,10 @@
           <div class="features_news">
             <div class="features">
             <h2 class="section-title">Особенности</h2>    
-            <ul class="features">                                                
+            <ul class="features_list">                                                
               <li class="features_list_item">
                                  <div class="feature_photo">
-                                     <img src="images/flower.png" alt="flower">
+                                     <img class="features_avatar" src="images/flower.png" alt="flower">
                                 </div>
                                 <div class="feature_text">
                                      <h3 class="features_title">Уникальность</h3>
@@ -101,8 +101,8 @@
             <ul class="news__list">
               <li class="news__item_photo">
                                           
-                <div class="feature_photo">
-                  <img src="images/hole.png" alt="туманность" class="news_avatar_hole"> 
+                <div class="news__item_photo">
+                  <img class="news__avatar" src="images/hole.png" alt="туманность" class="news_avatar_hole"> 
                 </div>                 
              </li>                        
                 <li class="news__item">
@@ -110,7 +110,7 @@
                   <div class="news__date">12.10.2016</div>
                   <h3 class="news__title">Чёрная дыра скидок!</h3>
                                 
-                  <p>Ключевым технологическим партнером GrowUp 
+                  <p class="news__text">Ключевым технологическим партнером GrowUp 
                   является дата-центр Миран, 
                   расположенный всего лишь в 500 метрах от здания, 
                   а значит, скорость интернета будет стабильной в любое время суток. 
@@ -118,7 +118,7 @@
                  </p>                                    
                </li>                        
               <li class="news__item_photo">
-                            <img src="images/fire.png" alt="шашка" class="news_avatar_fire">
+                            <img class="news__avatar" src="images/fire.png" alt="шашка" class="news_avatar_fire">
                            
               </li>
               <li class="news__item">
@@ -133,7 +133,7 @@
                             </div>
               </li>
               <li class="news__item_photo">
-                            <img src="images/cowork.png" alt="коворкинг" class="news_avatar_cowork">                            
+                            <img class="news__avatar" src="images/cowork.png" alt="коворкинг" class="news_avatar_cowork">                            
               </li>
               <li class="news__item">
                             <div class="news__description">
@@ -154,10 +154,13 @@
                         Страница 1 из 7
                         </div>
                         <div class="pagination__controlls">
-                          <a href="" class="pagination__prev"></a>
+                          <a href class="pagination__prev"></a>
                           <ul class="pagination__pages-list">
+                              <li class="pagination__pages-item">
+                                  <a href="#" class="pagination__pages-link"><</a>
+                                </li>
                             <li class="pagination__pages-item">
-                              <a href="#" class="pagination__pages-link">1</a>
+                              <a href="#" class="pagination__pages-link pagination__pages-link--aktiv">1</a>
                             </li>
                             <li class="pagination__pages-item">
                               <a href="#" class="pagination__pages-link">2</a>
@@ -186,29 +189,30 @@
     </div>
     <footer class="footer">
         <div class="container footer__container">
-          <div class="footer_text">Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.
+          <div class="footer_text">Сделано с любовью и старанием <br>
+             на курсе «HTML + CSS» в LoftSchool.<br>
           Автор работы: Исаев Георгий
           </div>
-              <div class="logo"><a href="/" class="logo_bottom">
+              <div class="logo_footer"><a href="/">
                <img src="images/logo-fig-3x.png" class="logo__img" alt="Коворкинг твоей мечты">
               </a>
             </div>
               <div class="social_contacts">
-                <div class="our_social_text" Наши социальные сети></div>
-              <ul>
+                <div class="our_social_text"> Наши социальные сети</div>
+              <ul class="social_list">
                    <li class="social_icons">
-                       <a href="#" class="social_icon social_icon--red"><img src="images/vk.png"></a>
+                       <a href="#" class="social_icon social__icon--link--vk"></a>
                    <li class="social_icons">
-                       <a href="#" class="social_icon"><img src="images/fb.png"></a>
+                       <a href="#" class="social_icon social__icon--link--fb"></a>
                    </li>
                    <li class="social_icons">
-                       <a href="#" class="social_icon"><img src="images/google.png"></a>
+                       <a href="#" class="social_icon social__icon--link--google"></a>
                    </li>
                    <li class="social_icons">
-                       <a href="#" class="social_icon"><img src="images/twitter.png"></a>
+                       <a href="#" class="social_icon social__icon--link--twitter"></a>
                    </li>
                    <li class="social_icons">
-                       <a href="#" class="social_icon"><img src="images/mail.png"></a>
+                       <a href="#" class="social_icon social__icon--link--mail"></a>
                    </li>
                </ul>
               </div>
